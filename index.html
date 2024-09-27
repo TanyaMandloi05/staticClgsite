@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .navbar {
+            background-color:  #eed3d3;
+            background-color: #F6EFE9;
+            padding: 20px;
+            display: flex;
+            
+            position: relative;
+         
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #000435;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid transparent;
+            border-radius: 30px; /* Capsule button shape */
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+            margin: 2px; /* Add some space between navigation items */
+        }
+        .navbar a:hover, .navbar a:focus {
+            background-color: #000435; 
+            color: white;
+            border-color: #fff;
+        }
+        .content {
+            background-image: url('Aitr.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            height: calc(100vh - 80px); 
+            position: relative;
+        }
+        .content h1 {
+            position: absolute;
+            top: 20%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #000435;
+            font-weight: 900s;
+            font-size: 3em;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="admission.html">Admission Enquiry</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="content">
+        <!-- <img src="Aitr.jpeg" alt="" > -->
+        <h1>A PLACE TO BUILD YOUR OWN  <br> ROAD TO SUCCESS</h1>
+   
+</div>
+</body>
+</html>
